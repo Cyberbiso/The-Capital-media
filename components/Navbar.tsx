@@ -49,11 +49,11 @@ export default function Navbar() {
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 no-underline" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
             <Image
-              src="/logo.png"
-              alt="The Capital Media Logo"
-              width={36}
-              height={36}
-              className="rounded-full object-contain"
+              src="/logo-clear.png"
+              alt="Logo"
+              width={180}
+              height={45}
+              className="h-10 w-auto"
             />
             <div className="leading-none">
               <div className="text-[11px] font-500 text-[#6B6B6B] tracking-widest uppercase">The Capital</div>

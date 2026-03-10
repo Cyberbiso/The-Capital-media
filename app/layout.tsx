@@ -10,6 +10,10 @@ export const metadata: Metadata = {
   title: "The Capital Media | Economics. Markets. Policy.",
   description:
     "Botswana's trusted source for economic analysis, business dialogue, financial markets insights, and entrepreneurship development in Botswana and Africa.",
+  icons: {
+    icon: "/logo-clear.png",
+    apple: "/logo-clear.png",
+  },
 };
 
 export default function RootLayout({
