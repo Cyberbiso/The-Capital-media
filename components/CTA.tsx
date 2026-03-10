@@ -36,7 +36,7 @@ export default function CTA() {
             <div className="flex flex-wrap gap-3 justify-center">
               <a
                 href="mailto:ctketlhoafetse@gmail.com?subject=Free%20Consultation%20Request"
-                className="inline-flex items-center gap-2 bg-[#8E7C24] hover:bg-[#7A6A1F] text-white font-600 text-[15px] px-8 py-4 rounded-full transition-all hover:-translate-y-px cursor-pointer gold-glow"
+                className="inline-flex items-center gap-2 bg-[#8E7C24] hover:bg-[#7A6A1F] text-white font-600 text-[15px] px-8 py-4 rounded-full transition-all hover:-translate-y-px cursor-pointer"
               >
                 <Mail size={16} />
                 Arrange a Free Consultation

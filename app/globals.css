@@ -67,15 +67,3 @@ body {
 .accordion-icon.open {
   transform: rotate(45deg);
 }
-
-/* Gold gradient effect for CTA buttons */
-.gold-glow {
-  background-image: linear-gradient(to right, #8E7C24, #FBE083, #B8A44E) !important;
-  box-shadow: 0 4px 14px 0 rgba(142, 124, 36, 0.2);
-  transition: all 0.3s ease !important;
-}
-
-.gold-glow:hover {
-  background-image: linear-gradient(to right, #7A6A1F, #EED172, #A59242) !important;
-  box-shadow: 0 6px 20px rgba(142, 124, 36, 0.3);
-}

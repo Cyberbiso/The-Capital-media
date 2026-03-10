@@ -22,7 +22,7 @@ export default function Hero() {
           <div className="flex justify-center mb-10">
             <a
               href="mailto:ctketlhoafetse@gmail.com?subject=Initial%20Consultation%20Request"
-              className="inline-flex items-center bg-[#8E7C24] hover:bg-[#7A6A1F] text-white text-[13px] font-600 tracking-[0.08em] uppercase px-8 py-3.5 rounded-full transition-all hover:-translate-y-px gold-glow"
+              className="inline-flex items-center bg-[#8E7C24] hover:bg-[#7A6A1F] text-white text-[13px] font-600 tracking-[0.08em] uppercase px-8 py-3.5 rounded-full transition-all hover:-translate-y-px"
             >
               Arrange an Initial Consultation
             </a>

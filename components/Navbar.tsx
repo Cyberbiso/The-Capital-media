@@ -73,7 +73,7 @@ export default function Navbar() {
           {/* Desktop CTA */}
           <button
             onClick={() => handleNavClick("#contact")}
-            className="hidden md:flex items-center gap-2 bg-[#8E7C24] hover:bg-[#7A6A1F] text-white text-sm font-600 px-5 py-2.5 rounded-full transition-all hover:-translate-y-px cursor-pointer border-none gold-glow"
+            className="hidden md:flex items-center gap-2 bg-[#8E7C24] hover:bg-[#7A6A1F] text-white text-sm font-600 px-5 py-2.5 rounded-full transition-all hover:-translate-y-px cursor-pointer border-none"
           >
             Partner With Us
           </button>
@@ -124,7 +124,7 @@ export default function Navbar() {
             <div className="mt-8">
               <button
                 onClick={() => handleNavClick("#contact")}
-                className="w-full bg-[#8E7C24] hover:bg-[#7A6A1F] text-white font-600 py-3.5 rounded-full transition-colors cursor-pointer border-none gold-glow"
+                className="w-full bg-[#8E7C24] hover:bg-[#7A6A1F] text-white font-600 py-3.5 rounded-full transition-colors cursor-pointer border-none"
               >
                 Partner With Us
               </button>
