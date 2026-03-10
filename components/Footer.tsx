@@ -1,6 +1,7 @@
 "use client";
 
-import { TrendingUp, Mail, Globe, MapPin, Twitter, Linkedin, Youtube } from "lucide-react";
+import { Mail, Globe, MapPin, Twitter, Linkedin, Youtube } from "lucide-react";
+import Image from "next/image";
 
 const serviceLinks = [
   { label: "Economic Analysis", href: "#focus" },
@@ -33,9 +34,13 @@ export default function Footer() {
           {/* Brand */}
           <div>
             <div className="flex items-center gap-2.5 mb-4">
-              <div className="w-8 h-8 rounded-full bg-gradient-to-br from-[#A08C2A] to-[#5A4818] flex items-center justify-center">
-                <TrendingUp size={14} color="white" />
-              </div>
+              <Image
+                src="/logo-dark.png"
+                alt="The Capital Media Logo"
+                width={32}
+                height={32}
+                className="rounded-full object-contain"
+              />
               <div>
                 <div className="text-[10px] font-500 tracking-widest uppercase" style={{ color: "rgba(255,255,255,0.5)" }}>The Capital</div>
                 <div className="text-[13px] font-700 text-white tracking-tight">MEDIA</div>

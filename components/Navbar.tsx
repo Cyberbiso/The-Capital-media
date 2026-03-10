@@ -1,7 +1,8 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import { Menu, X, TrendingUp } from "lucide-react";
+import { Menu, X } from "lucide-react";
+import Image from "next/image";
 
 const links = [
   { label: "About", href: "#about" },
@@ -47,9 +48,13 @@ export default function Navbar() {
         <div className="max-w-[1200px] mx-auto px-5 h-16 flex items-center justify-between">
           {/* Logo */}
           <a href="#" className="flex items-center gap-2.5 no-underline" onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}>
-            <div className="w-9 h-9 rounded-full bg-gradient-to-br from-[#A08C2A] to-[#5A4818] flex items-center justify-center">
-              <TrendingUp size={16} color="white" />
-            </div>
+            <Image
+              src="/logo.png"
+              alt="The Capital Media Logo"
+              width={36}
+              height={36}
+              className="rounded-full object-contain"
+            />
             <div className="leading-none">
               <div className="text-[11px] font-500 text-[#6B6B6B] tracking-widest uppercase">The Capital</div>
               <div className="text-[15px] font-700 text-[#1F1F1F] tracking-tight">MEDIA</div>
